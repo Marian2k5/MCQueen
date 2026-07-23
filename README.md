@@ -26,7 +26,7 @@ An autonomous smart car designed to navigate a track using an ultrasonic sensor 
 * **Motor Power:** Main battery pack connected directly to the L298N 12V terminal.
 * **Shared Ground:** Common ground established between Arduino GND and L298N GND.
   
-## 🛠️ Hardware & Design Justifications
+##  Hardware & Design Justifications
 * **Arduino Uno:** Chosen for its reliability, broad community library support, and ease of interfacing with external sensors and motor drivers.
 * **L298N Motor Driver:** Used to handle the higher current requirements of the DC motors while keeping motor voltage separate from the Arduino's logic supply.
 * **HC-SR04 Ultrasonic Sensor:** Provides accurate distance measurement to track walls and obstacles dynamically.
